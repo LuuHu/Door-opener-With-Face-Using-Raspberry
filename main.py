@@ -114,7 +114,7 @@ if __name__=='__main__':
             red.off()
             continue
         elif level[0] == level[1]:
-            really0 = getreal(img1)
+            really0 = getreal(img1) # Here is to make sure is real person not a printed picture or face showing on screen
             really1 = getreal(img2)
             ##### The reason why i use it twice instead of Pool.map is that it may OOM cause the model is quite large, maybe you can design your own model
             print(really0)
