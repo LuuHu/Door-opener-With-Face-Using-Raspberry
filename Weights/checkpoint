@@ -1,0 +1,2 @@
+model_checkpoint_path: "mymodelwights.tf"
+all_model_checkpoint_paths: "mymodelwights.tf"
